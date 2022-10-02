@@ -1,5 +1,22 @@
 {
+  "name": "@ehjalmar/gh-package-excercise",
+  "version": "1.0.0",
+  "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehjalmar/gh-package-excercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehjalmar/gh-package-excercise/issues"
+  },
+  "homepage": "https://github.com/ehjalmar/gh-package-excercise#readme",
   "publishConfig": {
-   "@ehjalmar:registry": "https://npm.pkg.github.com"
- }
+      "@ehjalmar:registry": "https://npm.pkg.github.com"
+   }
 }
