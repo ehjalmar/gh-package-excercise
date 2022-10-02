@@ -1,0 +1,5 @@
+{
+  "publishConfig": {
+   "@ehjalmar:registry": "https://npm.pkg.github.com"
+ }
+}
